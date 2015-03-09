@@ -214,7 +214,7 @@ Author : K.G.R Vamsi
        window.myDiagramContainer = new A.DiagramBuilder({
                     availableFields: availableFields,
                     boundingBox: '#myDiagramContainer',
-                    width: 1280,
+                    width: 1040,
                     height: 320,
                     shapeBoundary:true,
                     fields: [],
@@ -246,8 +246,7 @@ function saveFieldsForm(){
             console.log(item,"In Items");
             console.log(index,"In Index");
             console.log(collection,"In Collection");
-            console.log(connector, "In Connector");
-
+            
         /*var fieldXML = '<field>';
         fieldXML += '<type>' + type + '</type>';
         fieldXML += '<name>' + name + '</name>';
